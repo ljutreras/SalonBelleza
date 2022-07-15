@@ -1,0 +1,17 @@
+{
+  "name": "peluqueria",
+  "version": "1.0.0",
+  "description": "salon_de_belleza_susy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "peluqueria"
+  ],
+  "author": "LeonardoUtreras",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
