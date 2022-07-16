@@ -13,18 +13,48 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 218px;
+    max-width: 218px;
     height: 174px;
     border: 1px solid black;
 }
 
 #nav-bar {
-    display: block;
+    padding-top: 20px;
+    overflow: hidden;
+    border: 1px solid black;
     margin: 50px auto 0px;
-    height: 100px;
-    width: 80%;
-    border: 1px solid red;
+    width: 90%;
 }
+
+#nav-bar li {
+    float: left;
+    margin-inline-start: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 600px) {
+    #nav-bar {
+        background-color: dimgray;
+        color: beige;
+        padding-right: 50px;
+        width: 80%;
+    }
+
+    #nav-bar li {
+        float: none;
+        border-bottom: 1px solid black;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+
+}
+
 
 #carousel-nav {
     display: block;
@@ -38,8 +68,9 @@ body {
     position: relative;
     margin: 50px auto 0px;
     width: 90%;
-/*     border: 1px solid green;
- */    box-sizing: border-box;
+    /*     border: 1px solid green;
+ */
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
 
@@ -48,7 +79,7 @@ body {
 }
 
 #horario-footer {
-    
+
     width: 600px;
     height: 350px;
     margin-right: 20px;

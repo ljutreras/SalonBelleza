@@ -3,15 +3,24 @@ import "../styles/Nav.css";
 
 const UsuarioComponent = () => {
     return (
-        <div>
+        <div >
             <header>
                 <div id="logo-header">
 
                 </div>
             </header>
-            <div id="nav-bar">
-
-            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <div class="nav-li">
+                        <li id="home">Inicio</li>
+                        <li id="about">Quienes Somos</li>
+                        <li id="service">Servicios</li>
+                        <li id="Catalogo">Catálogo</li>
+                        <li id="galery">Galería de imágenes</li>
+                        <li id="contact">Contacto</li>
+                    </div>
+                </ul>
+            </nav>
             <aside>
                 <div id="carousel-nav">
 
@@ -45,7 +54,7 @@ const UsuarioComponent = () => {
 
                     </div>
                     <div id="service-footer">
-                    <article>
+                        <article>
                             <header>
                                 Horario de atención
                             </header>
@@ -68,7 +77,7 @@ const UsuarioComponent = () => {
                         </article>
                     </div>
                     <div id="contact-footer">
-                    <article>
+                        <article>
                             <header>
                                 Horario de atención
                             </header>
